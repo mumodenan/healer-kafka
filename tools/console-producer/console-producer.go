@@ -8,7 +8,7 @@ import (
 	"runtime/pprof"
 	"strings"
 
-	"github.com/childe/healer"
+	"github.com/mumodenan/healer-kafka"
 	"github.com/golang/glog"
 )
 

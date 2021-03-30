@@ -8,7 +8,7 @@ import (
 
 	goflag "flag"
 
-	"github.com/childe/healer"
+	"github.com/mumodenan/healer-kafka"
 	"github.com/golang/glog"
 	flag "github.com/spf13/pflag"
 )

@@ -1,7 +1,7 @@
 ## Group Consumer
 
 ```
-import  "github.com/childe/healer"
+import  "github.com/mumodenan/healer-kafka"
 
 configMap := map[string]interface{}
 configMap["bootstrap.servers"] = "127.0.0.1:9092,127.0.0.1:9093"
@@ -34,7 +34,7 @@ for {
 ## Producer
 
 ```
-import  "github.com/childe/healer"
+import  "github.com/mumodenan/healer-kafka"
 
 configMap := map[string]interface{}
 configMap["bootstrap.servers"] = "127.0.0.1:9092,127.0.0.1:9093"

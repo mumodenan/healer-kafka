@@ -1,4 +1,4 @@
-module github.com/childe/healer
+module github.com/mumodenan/healer-kafka
 
 go 1.15
 

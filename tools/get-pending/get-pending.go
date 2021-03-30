@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/childe/healer"
+	"github.com/mumodenan/healer-kafka"
 	"github.com/golang/glog"
 )
 

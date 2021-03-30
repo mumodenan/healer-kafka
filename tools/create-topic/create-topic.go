@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/childe/healer"
+	"github.com/mumodenan/healer-kafka"
 )
 
 var (
