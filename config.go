@@ -206,7 +206,7 @@ func DefaultProducerConfig() *ProducerConfig {
 		Acks:                     1,
 		CompressionType:          "none",
 		BatchSize:                16384,
-		MessageMaxCount:          1024,
+		MessageMaxCount:          1,
 		FlushIntervalMS:          200,
 		MetadataMaxAgeMS:         300000,
 		FetchTopicMetaDataRetrys: 3,

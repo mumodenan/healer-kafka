@@ -165,7 +165,7 @@ func (p *SimpleProducer) AddMessage(key []byte, value []byte) error {
 		return p.flush(messageSet)
 	} else {
 		p.messageSetMutex.Unlock()
-		return errors.New("MessageMaxCount Exceed")
+		return nil
 	}
 }
 
